@@ -13,3 +13,8 @@ So that you can compare how the files look before and after the first simulation
 You should see an open window with the trajectory plot:
 
 ![ex01](https://user-images.githubusercontent.com/63464503/124515938-880a8f80-ddd8-11eb-9439-409381b5124a.png)
+
+Be sure to zoom in on every detail! 
+
+![ex02](https://user-images.githubusercontent.com/63464503/124516141-ef284400-ddd8-11eb-9481-099947f7e803.png)
+

@@ -1,0 +1,39 @@
+____INIT_____
+>>>> SETTINGS.Py
+_________________________________________________________________
+INSTALL PATH:  C:\\Users\\Rui Campos\\Projects\\MontyCarlo
+----
+SURFACE_THICKNESS: 1e-07
+---------------
+DEBUG: False
+---------------
+PHOTON CUT OFF: 5110.0 MeV
+----
+ELECTRON CUT OFF: 100000.0 MeV
+---------------------------------------------
+Wcc: 10 eV
+---------------
+
+
+BRANCH: SETTING UP MIX MAX
+>>>>>   IMPORTING CUBIC INVERSE TRANSFORM
+/materials.__init__
+from .materials import Material
+pyRelax
+>>>> importing database.py
+>>>>>   IMPORTING VECTORS
+material init electron
+>>>>>   IMPORTING RITA
+>>>> materials.photon folder
+>>>> IMPORTING material.photon.CrossSection.pyx
+>>>> IMPORTING material.photon.pyx
+>>>> IMPORTING main.pyx
+>>>> IMPORTING main.pyx
+>>>>>   IMPORTING PARTICLE
+>>>>>   IMPORTING GEOMETRY
+('Size of mater', 128)
+>>>>>   IMPORTING PHOTONS
+>>>>>   IMPORTING ELECTRONS
+('Size of mater', 128)
+>>>>>   IMPORTING SOURCES
+('SEED:', 370878444)

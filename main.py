@@ -35,7 +35,7 @@ with InfiniteVolume() as outer:
         outer_sphere.fill(air)
 
         with Sphere(50) as inner_sphere:
-            outer_sphere in outer_sphere
+            outer_sphere in inner_sphere
             outer_sphere.configure("inner_sphere", render = True)
             outer_sphere.fill(water)
 

@@ -31,12 +31,12 @@ with InfiniteVolume() as outer:
     
     with Sphere(100) as outer_sphere:
         outer_sphere in outer
-        outer_sphere.configure("outer_sphere", render = True)
+        outer_sphere.configure("outer_sphere", render = False)  ### <--- in the after_simulation branch the user has turned off render, so that it is read from cache
         outer_sphere.fill(air)
 
         with Sphere(50) as inner_sphere:
             inner_sphere in outer_sphere
-            inner_sphere.configure("inner_sphere", render = True)
+            inner_sphere.configure("inner_sphere", render = False) ### <--- in the after_simulation branch the user has turned off render, so that it is read from cache
             inner_sphere.fill(water)
 
 

@@ -45,7 +45,7 @@ photon_beam = Beam(
                    "photon",       # kind of particle 
                    inner_sphere,   # initial volume
                    E = 10e6,       # initial eneryg in eV
-                   N = 50_000,     # number of particles in the source, careful with this number, might break your run and fill your ram
+                   N = 1_000,     # number of particles in the source, careful with this number, might break your run and fill your ram
                    pos = (0, 0, 0) # initial position 
                   ) 
 
@@ -54,6 +54,12 @@ photon_beam = Beam(
 # let Plotter handle the run
 plotter = Plotter(photon_beam)
 
+
 # then ask it for a fig
 fig = plotter.new_plot()
+
+# use this method to draw the geometry onto the figure (this will be better)
+plotter.add_geometry(fig, outer)
+
+
 fig.show()
